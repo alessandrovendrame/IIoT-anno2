@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.IITS.Northwind.WebApi", "ITS.Vendrame.IITS.Northwind.WebApi\ITS.Vendrame.IITS.Northwind.WebApi.csproj", "{3A2F9BF4-B3B1-42F1-91D4-BE07A8104AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.IITS.Northwind.Data", "ITS.Vendrame.IITS.Northwind.Data\ITS.Vendrame.IITS.Northwind.Data.csproj", "{A6B7B263-E482-4F70-BA50-E7C9CB66766D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A2F9BF4-B3B1-42F1-91D4-BE07A8104AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2F9BF4-B3B1-42F1-91D4-BE07A8104AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2F9BF4-B3B1-42F1-91D4-BE07A8104AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2F9BF4-B3B1-42F1-91D4-BE07A8104AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B7B263-E482-4F70-BA50-E7C9CB66766D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B7B263-E482-4F70-BA50-E7C9CB66766D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B7B263-E482-4F70-BA50-E7C9CB66766D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B7B263-E482-4F70-BA50-E7C9CB66766D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1680F4F-E1E9-4E5E-8834-4284BDCB83FF}
+	EndGlobalSection
+EndGlobal
