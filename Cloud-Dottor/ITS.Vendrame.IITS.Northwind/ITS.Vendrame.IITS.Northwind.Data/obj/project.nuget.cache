@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UQ1HRFKtTorL172T0ItkNEs/wuM15Pw+8KCd3e6BFiPKPDQuU4Sm8m+4fi8HuwDQ7ImXzIPwi+i9Jt7Ntb+5xg==",
+  "dgSpecHash": "oRu7AS/xrvYaQFHkkS+bY/3Tbj1C6p7V3U6donawUdHOQjzZjFwwd9f5/LkOBJpxzjopE3SYwyhbpQVb1z1iJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.IITS.Northwind\\ITS.Vendrame.IITS.Northwind.Data\\ITS.Vendrame.IITS.Northwind.Data.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",

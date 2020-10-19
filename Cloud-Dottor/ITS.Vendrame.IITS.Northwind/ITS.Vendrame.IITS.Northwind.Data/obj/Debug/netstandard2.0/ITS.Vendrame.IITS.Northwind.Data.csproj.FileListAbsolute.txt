@@ -4,6 +4,6 @@ C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame
 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.IITS.Northwind\ITS.Vendrame.IITS.Northwind.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IITS.Northwind.Data.AssemblyInfoInputs.cache
 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.IITS.Northwind\ITS.Vendrame.IITS.Northwind.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IITS.Northwind.Data.AssemblyInfo.cs
 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.IITS.Northwind\ITS.Vendrame.IITS.Northwind.Data\bin\Debug\netstandard2.0\ITS.Vendrame.IITS.Northwind.Data.pdb
-C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.IITS.Northwind\ITS.Vendrame.IITS.Northwind.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IITS.Northwind.Data.csproj.CoreCompileInputs.cache
 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.IITS.Northwind\ITS.Vendrame.IITS.Northwind.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IITS.Northwind.Data.dll
 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.IITS.Northwind\ITS.Vendrame.IITS.Northwind.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IITS.Northwind.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.IITS.Northwind\ITS.Vendrame.IITS.Northwind.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IITS.Northwind.Data.csproj.CoreCompileInputs.cache

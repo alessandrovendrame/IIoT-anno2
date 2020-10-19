@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ITS.Vendrame.IITS.Northwind.Data;
+using ITS.Vendrame.IITS.Northwind.Data.Models;
 using ITS.Vendrame.IITS.Northwind.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +30,7 @@ namespace ITS.Vendrame.IITS.Northwind.WebApi
         {
             services.AddControllers();
             services.AddScoped<ICategoriesRepository, CategoriesRepository>();
+            services.AddScoped<ICustomersRepository, CustomersRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
