@@ -43,8 +43,9 @@ namespace ITS.Vendrame.IITS.Northwind.WebApi.Controllers
 
         // PUT: api/Categories/5
         [HttpPut("{id}")]
-        public void Put([FromBody] Category category)
+        public void Put(int id,[FromBody] Category category)
         {
+            category.CategoryId = id;
             _categoriesRepository.Update(category);
         }
 
