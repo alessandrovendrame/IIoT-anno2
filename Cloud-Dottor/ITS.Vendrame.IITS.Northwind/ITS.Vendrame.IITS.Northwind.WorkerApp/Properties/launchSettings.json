@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.Vendrame.IITS.Northwind.WorkerApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

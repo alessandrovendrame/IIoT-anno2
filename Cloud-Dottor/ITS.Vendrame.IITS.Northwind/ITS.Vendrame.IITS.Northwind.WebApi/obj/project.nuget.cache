@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l6yzNCyZeQQGCYpkRIgbtPArFzhvmZH4F2HSqgBhxTnyjrurtCpatuEPfc0f4QTs6CfOds8MnNVVxuqidCLckg==",
+  "dgSpecHash": "6bgMh0DSLl9RTZGVao98g9TPiD+ibRsOAOl7Lr1AGZcW4iiN7wSFvSG+dGdpqnzX5YRO9CH3Wo5TFo1BML5Grg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.IITS.Northwind\\ITS.Vendrame.IITS.Northwind.WebApi\\ITS.Vendrame.IITS.Northwind.WebApi.csproj",
   "expectedPackageFiles": [
@@ -43,7 +43,7 @@
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

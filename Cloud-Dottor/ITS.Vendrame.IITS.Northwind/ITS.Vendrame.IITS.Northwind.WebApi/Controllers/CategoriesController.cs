@@ -42,9 +42,11 @@ namespace ITS.Vendrame.IITS.Northwind.WebApi.Controllers
 
         // POST: api/Categories
         [HttpPost]
-        public void Post([FromBody] Category category)
+        public IActionResult Post([FromBody] Category category)
         {
             _categoriesRepository.Insert(category);
+
+            return Ok(new { Message = "Categoria inserita correttamente" });
         }
 
         // PUT: api/Categories/5
