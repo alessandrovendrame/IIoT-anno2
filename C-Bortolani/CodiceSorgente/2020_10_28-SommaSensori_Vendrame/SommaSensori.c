@@ -59,8 +59,10 @@ int main()
 				sensorsData[i]+=data;									//aggiungo il dato del sensore nella posizione libera
 				
 				i++;													//incremento il numero dei sensori
-				b=0;													//riporto la variabile di controllo a 0
-			}			
+																	
+			}
+			
+			b=0; 														//riporto la variabile di controllo a 0			
 		}
 		
 		for(k=0; k<i; k++)
