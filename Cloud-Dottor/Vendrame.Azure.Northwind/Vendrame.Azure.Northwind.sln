@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendrame.Azure.Northwind.WebApp", "Vendrame.Azure.Northwind.WebApp\Vendrame.Azure.Northwind.WebApp.csproj", "{98F10749-BC61-4179-BF25-10117142FB74}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D92799C5-A820-40BA-84B4-BF65C9BE710C} = {D92799C5-A820-40BA-84B4-BF65C9BE710C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendrame.Azure.Northwind.Data", "Vendrame.Azure.Northwind.Data\Vendrame.Azure.Northwind.Data.csproj", "{D92799C5-A820-40BA-84B4-BF65C9BE710C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F10749-BC61-4179-BF25-10117142FB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F10749-BC61-4179-BF25-10117142FB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F10749-BC61-4179-BF25-10117142FB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F10749-BC61-4179-BF25-10117142FB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92799C5-A820-40BA-84B4-BF65C9BE710C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92799C5-A820-40BA-84B4-BF65C9BE710C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92799C5-A820-40BA-84B4-BF65C9BE710C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92799C5-A820-40BA-84B4-BF65C9BE710C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB1172A-286C-4BBC-AF81-B9ADDB34B731}
+	EndGlobalSection
+EndGlobal

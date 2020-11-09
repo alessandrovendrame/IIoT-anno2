@@ -1,0 +1,8 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\bin\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\bin\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\bin\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\obj\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\obj\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\obj\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\obj\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\Vendrame.Azure.Northwind\Vendrame.Azure.Northwind.Data\obj\Debug\netstandard2.0\Vendrame.Azure.Northwind.Data.pdb

@@ -1,0 +1,62 @@
+{
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "firstName": {
+      "type": "text",
+      "analyzer": "simple"
+    },
+    "middleName": {
+      "type": "text",
+      "analyzer": "simple"
+    },
+    "lastName": {
+      "type": "text",
+      "analyzer": "simple"
+    },
+    "birthDate": {
+      "type": "date",
+      "format": "dd/mm/YYYY"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "sex": {
+      "type": "keyword"
+    },
+    "eyeColor": {
+      "type": "text"
+    },
+    "job": {
+      "type": "text"
+    },
+    "dryCough": {
+      "type": "boolean"
+    },
+    "soreTroat": {
+      "type": "boolean"
+    },
+    "tiredness": {
+      "type": "boolean"
+    },
+    "headache": {
+      "type": "boolean"
+    },
+    "smellLoss": {
+      "type": "boolean"
+    },
+    "chestPain": {
+      "type": "boolean"
+    },
+    "covidPositive": {
+      "type": "boolean"
+    },
+    "bodyTemperature": {
+      "type": "float"
+    },
+    "location": {
+      "type": "geo_point"
+    }
+  }
+}
