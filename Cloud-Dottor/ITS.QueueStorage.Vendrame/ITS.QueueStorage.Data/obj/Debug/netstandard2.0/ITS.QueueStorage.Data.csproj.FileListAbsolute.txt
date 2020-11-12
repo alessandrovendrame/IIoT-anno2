@@ -1,0 +1,9 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\bin\Debug\netstandard2.0\ITS.QueueStorage.Data.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\bin\Debug\netstandard2.0\ITS.QueueStorage.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\obj\Debug\netstandard2.0\ITS.QueueStorage.Data.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\obj\Debug\netstandard2.0\ITS.QueueStorage.Data.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\obj\Debug\netstandard2.0\ITS.QueueStorage.Data.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\bin\Debug\netstandard2.0\ITS.QueueStorage.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\obj\Debug\netstandard2.0\ITS.QueueStorage.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\obj\Debug\netstandard2.0\ITS.QueueStorage.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.QueueStorage.Vendrame\ITS.QueueStorage.Data\obj\Debug\netstandard2.0\ITS.QueueStorage.Data.pdb

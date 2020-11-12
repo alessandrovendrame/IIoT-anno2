@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.QueueStorage.Receiver": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

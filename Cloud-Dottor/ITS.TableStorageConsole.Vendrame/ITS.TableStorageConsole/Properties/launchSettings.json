@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.TableStorageConsole": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
