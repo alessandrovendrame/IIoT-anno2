@@ -1,0 +1,66 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628 ]
+[d frameptr 0 ]
+"477 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"29 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\2020_11_17_PrimaLezione\ProgettoPrimaLezione.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"166 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f628.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"907
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"969
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"29 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\2020_11_17_PrimaLezione\ProgettoPrimaLezione.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+[v main@x x `i  1 a 2 8 ]
+[v main@k k `i  1 a 2 5 ]
+"38
+[v main@i i `i  1 a 2 2 ]
+"35
+[v main@button button `uc  1 a 1 7 ]
+"36
+[v main@oldButton oldButton `uc  1 a 1 4 ]
+"34
+[v main@oldPort oldPort `uc  1 a 1 1 ]
+"37
+[v main@state state `uc  1 a 1 0 ]
+"84
+} 0
+"477 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"547
+[v printf@cp cp `*.26DCuc  1 a 2 8 ]
+"512
+[v printf@c c `uc  1 a 1 7 ]
+"479
+[v printf@ap ap `[1]*.1v  1 a 1 5 ]
+"477
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"550
+[v printf@f f `*.24DCuc  1 a 1 6 ]
+"1567
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0

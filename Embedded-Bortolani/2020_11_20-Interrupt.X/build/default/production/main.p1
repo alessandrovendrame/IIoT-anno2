@@ -1,0 +1,221 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"310 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f628a.h
+[v _INTCON `Vuc ~T0 @X0 0 e@11 ]
+"837
+[v _OPTION_REG `Vuc ~T0 @X0 0 e@129 ]
+"969
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"228
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"907
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"166
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+[v F461 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\pic.h
+[v __delay `JF461 ~T0 @X0 0 e ]
+[p i __delay ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"13 main.c
+[p x FOSC  =  HS         ]
+"14
+[p x WDTE  =  OFF        ]
+"15
+[p x PWRTE  =  ON        ]
+"16
+[p x MCLRE  =  ON        ]
+"17
+[p x BOREN  =  ON        ]
+"18
+[p x LVP  =  OFF         ]
+"19
+[p x CPD  =  OFF         ]
+"20
+[p x CP  =  OFF          ]
+"54 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f628a.h
+[; <" INDF equ 00h ;# ">
+"61
+[; <" TMR0 equ 01h ;# ">
+"68
+[; <" PCL equ 02h ;# ">
+"75
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR equ 04h ;# ">
+"168
+[; <" PORTA equ 05h ;# ">
+"230
+[; <" PORTB equ 06h ;# ">
+"292
+[; <" PCLATH equ 0Ah ;# ">
+"312
+[; <" INTCON equ 0Bh ;# ">
+"390
+[; <" PIR1 equ 0Ch ;# ">
+"447
+[; <" TMR1 equ 0Eh ;# ">
+"454
+[; <" TMR1L equ 0Eh ;# ">
+"461
+[; <" TMR1H equ 0Fh ;# ">
+"468
+[; <" T1CON equ 010h ;# ">
+"527
+[; <" TMR2 equ 011h ;# ">
+"534
+[; <" T2CON equ 012h ;# ">
+"605
+[; <" CCPR1 equ 015h ;# ">
+"612
+[; <" CCPR1L equ 015h ;# ">
+"619
+[; <" CCPR1H equ 016h ;# ">
+"626
+[; <" CCP1CON equ 017h ;# ">
+"684
+[; <" RCSTA equ 018h ;# ">
+"755
+[; <" TXREG equ 019h ;# ">
+"762
+[; <" RCREG equ 01Ah ;# ">
+"769
+[; <" CMCON equ 01Fh ;# ">
+"839
+[; <" OPTION_REG equ 081h ;# ">
+"909
+[; <" TRISA equ 085h ;# ">
+"971
+[; <" TRISB equ 086h ;# ">
+"1033
+[; <" PIE1 equ 08Ch ;# ">
+"1090
+[; <" PCON equ 08Eh ;# ">
+"1139
+[; <" PR2 equ 092h ;# ">
+"1146
+[; <" TXSTA equ 098h ;# ">
+"1203
+[; <" SPBRG equ 099h ;# ">
+"1210
+[; <" EEDATA equ 09Ah ;# ">
+"1217
+[; <" EEADR equ 09Bh ;# ">
+"1224
+[; <" EECON1 equ 09Ch ;# ">
+"1262
+[; <" EECON2 equ 09Dh ;# ">
+"1269
+[; <" VRCON equ 09Fh ;# ">
+"28 main.c
+[v _count `i ~T0 @X0 1 e ]
+"29
+[v _tempo `i ~T0 @X0 1 e ]
+[i _tempo
+-> 15 `i
+]
+"30
+[v _gameChoose `i ~T0 @X0 1 e ]
+[i _gameChoose
+-> 0 `i
+]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"32
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"34
+[v _button `i ~T0 @X0 1 a ]
+[v _oldButton `i ~T0 @X0 1 a ]
+"35
+[e = _INTCON -> -> 160 `i `uc ]
+"36
+[e = _OPTION_REG -> -> 7 `i `uc ]
+"37
+[e = _TRISB -> -> 0 `i `uc ]
+"38
+[e = _PORTB -> -> 255 `i `uc ]
+"39
+[e = _TRISA -> -> 4 `i `uc ]
+"41
+[e = _count -> 0 `i ]
+"43
+[e :U 53 ]
+{
+"44
+[e = _button -> ! != & -> _PORTA `i -> 4 `i -> 0 `i `i ]
+"45
+[e $ ! && == _button -> 1 `i == _oldButton -> 0 `i 55  ]
+{
+"48
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"49
+[e = _button -> ! != & -> _PORTA `i -> 4 `i -> 0 `i `i ]
+"50
+[e $ ! && == _button -> 1 `i == _oldButton -> 0 `i 56  ]
+{
+"51
+[e ++ _gameChoose -> 1 `i ]
+"52
+[e =+ _tempo _tempo ]
+"53
+[e $ ! > _gameChoose -> 3 `i 57  ]
+{
+"54
+[e = _gameChoose -> 0 `i ]
+"55
+[e = _tempo -> 15 `i ]
+"56
+}
+[e :U 57 ]
+"57
+}
+[e :U 56 ]
+"58
+}
+[e :U 55 ]
+"59
+[e = _oldButton _button ]
+"60
+}
+[e :U 52 ]
+[e $U 53  ]
+[e :U 54 ]
+"61
+[e $UE 51  ]
+"62
+[e :UE 51 ]
+}
+[v $root$_lampeggio `(v ~T0 @X0 0 e ]
+"64
+[v _lampeggio `(v ~T1 @X0 1 ef ]
+{
+[e :U _lampeggio ]
+[f ]
+"66
+[e $ ! != & -> _INTCON `i -> 4 `i -> 0 `i 59  ]
+{
+"67
+[e ++ _count -> 1 `i ]
+"69
+[e $ ! > _count _tempo 60  ]
+{
+"70
+[e = _PORTB -> ~ -> _PORTB `i `uc ]
+"71
+[e = _count -> 0 `i ]
+"72
+}
+[e :U 60 ]
+"74
+[e = _INTCON -> & -> _INTCON `i ~ -> 4 `i `uc ]
+"75
+}
+[e :U 59 ]
+"78
+[e $UE 58  ]
+"79
+[e :UE 58 ]
+}

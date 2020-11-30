@@ -1,0 +1,768 @@
+
+
+Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
+                                                                                               Fri Nov 20 12:47:31 2020
+
+Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
+     1                           	processor	16F628A
+     2                           	pagewidth 120
+     3                           	opt	flic
+     4                           	psect	cinit,global,class=CODE,merge=1,delta=2
+     5                           	psect	bssCOMMON,global,class=COMMON,space=1,delta=1,noexec
+     6                           	psect	cstackCOMMON,global,class=COMMON,space=1,delta=1,noexec
+     7                           	psect	maintext,global,class=CODE,split=1,delta=2
+     8                           	psect	text1,local,class=CODE,merge=1,delta=2
+     9                           	psect	intentry,global,class=CODE,delta=2
+    10                           	psect	config,global,abs,ovrld,class=CONFIG,space=4,delta=2,noexec
+    11                           	dabs	1,0x7E,2
+    12  0000                     
+    13                           ; Version 2.20
+    14                           ; Generated 12/02/2020 GMT
+    15                           ; 
+    16                           ; Copyright © 2020, Microchip Technology Inc. and its subsidiaries ("Microchip")
+    17                           ; All rights reserved.
+    18                           ; 
+    19                           ; This software is developed by Microchip Technology Inc. and its subsidiaries ("Microch
+      +                          ip").
+    20                           ; 
+    21                           ; Redistribution and use in source and binary forms, with or without modification, are
+    22                           ; permitted provided that the following conditions are met:
+    23                           ; 
+    24                           ;     1. Redistributions of source code must retain the above copyright notice, this lis
+      +                          t of
+    25                           ;        conditions and the following disclaimer.
+    26                           ; 
+    27                           ;     2. Redistributions in binary form must reproduce the above copyright notice, this 
+      +                          list
+    28                           ;        of conditions and the following disclaimer in the documentation and/or other
+    29                           ;        materials provided with the distribution.
+    30                           ; 
+    31                           ;     3. Microchip's name may not be used to endorse or promote products derived from th
+      +                          is
+    32                           ;        software without specific prior written permission.
+    33                           ; 
+    34                           ; THIS SOFTWARE IS PROVIDED BY MICROCHIP "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+    35                           ; INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS F
+      +                          OR
+    36                           ; PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL MICROCHIP BE LIABLE FOR ANY DIRECT, INDIREC
+      +                          T,
+    37                           ; INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO
+    38                           ; PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA OR PROFITS; OR BUSINESS
+    39                           ; INTERRUPTION) HOWSOEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, ST
+      +                          RICT
+    40                           ; LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE U
+      +                          SE OF
+    41                           ; THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    42                           ; 
+    43                           ; 
+    44                           ; Code-generator required, PIC16F628A Definitions
+    45                           ; 
+    46                           ; SFR Addresses
+    47  0000                     	;# 
+    48  0001                     	;# 
+    49  0002                     	;# 
+    50  0003                     	;# 
+    51  0004                     	;# 
+    52  0005                     	;# 
+    53  0006                     	;# 
+    54  000A                     	;# 
+    55  000B                     	;# 
+    56  000C                     	;# 
+    57  000E                     	;# 
+    58  000E                     	;# 
+    59  000F                     	;# 
+    60  0010                     	;# 
+    61  0011                     	;# 
+    62  0012                     	;# 
+    63  0015                     	;# 
+    64  0015                     	;# 
+    65  0016                     	;# 
+    66  0017                     	;# 
+    67  0018                     	;# 
+    68  0019                     	;# 
+    69  001A                     	;# 
+    70  001F                     	;# 
+    71  0081                     	;# 
+    72  0085                     	;# 
+    73  0086                     	;# 
+    74  008C                     	;# 
+    75  008E                     	;# 
+    76  0092                     	;# 
+    77  0098                     	;# 
+    78  0099                     	;# 
+    79  009A                     	;# 
+    80  009B                     	;# 
+    81  009C                     	;# 
+    82  009D                     	;# 
+    83  009F                     	;# 
+    84  0000                     	;# 
+    85  0001                     	;# 
+    86  0002                     	;# 
+    87  0003                     	;# 
+    88  0004                     	;# 
+    89  0005                     	;# 
+    90  0006                     	;# 
+    91  000A                     	;# 
+    92  000B                     	;# 
+    93  000C                     	;# 
+    94  000E                     	;# 
+    95  000E                     	;# 
+    96  000F                     	;# 
+    97  0010                     	;# 
+    98  0011                     	;# 
+    99  0012                     	;# 
+   100  0015                     	;# 
+   101  0015                     	;# 
+   102  0016                     	;# 
+   103  0017                     	;# 
+   104  0018                     	;# 
+   105  0019                     	;# 
+   106  001A                     	;# 
+   107  001F                     	;# 
+   108  0081                     	;# 
+   109  0085                     	;# 
+   110  0086                     	;# 
+   111  008C                     	;# 
+   112  008E                     	;# 
+   113  0092                     	;# 
+   114  0098                     	;# 
+   115  0099                     	;# 
+   116  009A                     	;# 
+   117  009B                     	;# 
+   118  009C                     	;# 
+   119  009D                     	;# 
+   120  009F                     	;# 
+   121  0005                     _PORTA	set	5
+   122  0006                     _PORTB	set	6
+   123  000B                     _INTCON	set	11
+   124  0085                     _TRISA	set	133
+   125  0086                     _TRISB	set	134
+   126  0081                     _OPTION_REG	set	129
+   127                           
+   128                           	psect	cinit
+   129  000B                     start_initialization:	
+   130                           ; #config settings
+   131                           
+   132  000B                     __initialization:
+   133                           
+   134                           ; Clear objects allocated to COMMON
+   135  000B  01F8               	clrf	__pbssCOMMON& (0+127)
+   136  000C  01F9               	clrf	(__pbssCOMMON+1)& (0+127)
+   137  000D  01FA               	clrf	(__pbssCOMMON+2)& (0+127)
+   138  000E  01FB               	clrf	(__pbssCOMMON+3)& (0+127)
+   139  000F                     end_of_initialization:	
+   140                           ;End of C runtime variable initialization code
+   141                           
+   142  000F                     __end_of__initialization:
+   143  000F  0183               	clrf	3
+   144  0010  2811               	ljmp	_main	;jump to C main() function
+   145                           
+   146                           	psect	bssCOMMON
+   147  0078                     __pbssCOMMON:
+   148  0078                     _gameChoose:
+   149  0078                     	ds	2
+   150  007A                     _count:
+   151  007A                     	ds	2
+   152                           
+   153                           	psect	cstackCOMMON
+   154  0070                     __pcstackCOMMON:
+   155  0070                     ?_main:
+   156  0070                     ?_lampeggio:	
+   157                           ; 1 bytes @ 0x0
+   158                           
+   159  0070                     ??_lampeggio:	
+   160                           ; 1 bytes @ 0x0
+   161                           
+   162                           
+   163                           ; 1 bytes @ 0x0
+   164  0070                     	ds	2
+   165  0072                     ??_main:
+   166                           
+   167                           ; 1 bytes @ 0x2
+   168  0072                     	ds	2
+   169  0074                     main@oldButton:
+   170                           
+   171                           ; 2 bytes @ 0x4
+   172  0074                     	ds	2
+   173  0076                     main@button:
+   174                           
+   175                           ; 2 bytes @ 0x6
+   176  0076                     	ds	2
+   177                           
+   178                           	psect	maintext
+   179  0011                     __pmaintext:	
+   180 ;;
+   181 ;;Main: autosize = 0, tempsize = 2, incstack = 0, save=0
+   182 ;;
+   183 ;; *************** function _main *****************
+   184 ;; Defined at:
+   185 ;;		line 31 in file "main.c"
+   186 ;; Parameters:    Size  Location     Type
+   187 ;;		None
+   188 ;; Auto vars:     Size  Location     Type
+   189 ;;  button          2    6[COMMON] int 
+   190 ;;  oldButton       2    4[COMMON] int 
+   191 ;; Return value:  Size  Location     Type
+   192 ;;                  1    wreg      void 
+   193 ;; Registers used:
+   194 ;;		wreg, status,2, status,0, btemp+1
+   195 ;; Tracked objects:
+   196 ;;		On entry : B00/0
+   197 ;;		On exit  : 0/0
+   198 ;;		Unchanged: 0/0
+   199 ;; Data sizes:     COMMON   BANK0   BANK1   BANK2
+   200 ;;      Params:         0       0       0       0
+   201 ;;      Locals:         4       0       0       0
+   202 ;;      Temps:          2       0       0       0
+   203 ;;      Totals:         6       0       0       0
+   204 ;;Total ram usage:        6 bytes
+   205 ;; Hardware stack levels required when called:    1
+   206 ;; This function calls:
+   207 ;;		Nothing
+   208 ;; This function is called by:
+   209 ;;		Startup code after reset
+   210 ;; This function uses a non-reentrant model
+   211 ;;
+   212                           
+   213                           
+   214                           ;psect for function _main
+   215  0011                     _main:
+   216  0011                     l634:	
+   217                           ;incstack = 0
+   218                           ; Regs used in _main: [wreg+status,2+status,0+btemp+1]
+   219                           
+   220                           
+   221                           ;main.c: 33:     int button,oldButton;;main.c: 34:     INTCON = 0xA0;
+   222  0011  30A0               	movlw	160
+   223  0012  008B               	movwf	11	;volatile
+   224                           
+   225                           ;main.c: 35:     OPTION_REG = 0x07;
+   226  0013  3007               	movlw	7
+   227  0014  1683               	bsf	3,5	;RP0=1, select bank1
+   228  0015  1303               	bcf	3,6	;RP1=0, select bank1
+   229  0016  0081               	movwf	1	;volatile
+   230  0017                     l636:
+   231                           
+   232                           ;main.c: 36:     TRISB = 0x00;
+   233  0017  0186               	clrf	6	;volatile
+   234  0018                     l638:
+   235                           
+   236                           ;main.c: 37:     PORTB = 0xFF;
+   237  0018  30FF               	movlw	255
+   238  0019  1283               	bcf	3,5	;RP0=0, select bank0
+   239  001A  1303               	bcf	3,6	;RP1=0, select bank0
+   240  001B  0086               	movwf	6	;volatile
+   241  001C                     l640:
+   242                           
+   243                           ;main.c: 38:     TRISA = 0b00000100;
+   244  001C  3004               	movlw	4
+   245  001D  1683               	bsf	3,5	;RP0=1, select bank1
+   246  001E  1303               	bcf	3,6	;RP1=0, select bank1
+   247  001F  0085               	movwf	5	;volatile
+   248  0020                     l642:
+   249                           
+   250                           ;main.c: 40:     count = 0;
+   251  0020  01FA               	clrf	_count
+   252  0021  01FB               	clrf	_count+1
+   253  0022                     l23:	
+   254                           ;main.c: 42:     while(1){
+   255                           
+   256                           
+   257                           ;main.c: 43:         button = !(PORTA & 0x04);
+   258  0022  1283               	bcf	3,5	;RP0=0, select bank0
+   259  0023  1303               	bcf	3,6	;RP1=0, select bank0
+   260  0024  1D05               	btfss	5,2	;volatile
+   261  0025  2827               	goto	u11
+   262  0026  2829               	goto	u10
+   263  0027                     u11:
+   264  0027  3001               	movlw	1
+   265  0028  282A               	goto	u20
+   266  0029                     u10:
+   267  0029  3000               	movlw	0
+   268  002A                     u20:
+   269  002A  00F2               	movwf	??_main
+   270  002B  01F3               	clrf	??_main+1
+   271  002C  0872               	movf	??_main,w
+   272  002D  00F6               	movwf	main@button
+   273  002E  0873               	movf	??_main+1,w
+   274  002F  00F7               	movwf	main@button+1
+   275  0030                     l644:
+   276                           
+   277                           ;main.c: 44:         if((button == 1) && (oldButton == 0)) {
+   278  0030  0376               	decf	main@button,w
+   279  0031  0477               	iorwf	main@button+1,w
+   280  0032  1D03               	btfss	3,2
+   281  0033  2835               	goto	u31
+   282  0034  2836               	goto	u30
+   283  0035                     u31:
+   284  0035  2874               	goto	l660
+   285  0036                     u30:
+   286  0036                     l646:
+   287  0036  0874               	movf	main@oldButton,w
+   288  0037  0475               	iorwf	main@oldButton+1,w
+   289  0038  1D03               	btfss	3,2
+   290  0039  283B               	goto	u41
+   291  003A  283C               	goto	u40
+   292  003B                     u41:
+   293  003B  2874               	goto	l660
+   294  003C                     u40:
+   295  003C                     l648:
+   296                           
+   297                           ;main.c: 47:             _delay((unsigned long)((20)*(8000000/4000.0)));
+   298  003C  3034               	movlw	52
+   299  003D  00F3               	movwf	??_main+1
+   300  003E  30F1               	movlw	241
+   301  003F  00F2               	movwf	??_main
+   302  0040                     u197:
+   303  0040  0BF2               	decfsz	??_main,f
+   304  0041  2840               	goto	u197
+   305  0042  0BF3               	decfsz	??_main+1,f
+   306  0043  2840               	goto	u197
+   307  0044  2845               	nop2
+   308                           
+   309                           ;main.c: 48:             button = !(PORTA & 0x04);
+   310  0045  1283               	bcf	3,5	;RP0=0, select bank0
+   311  0046  1303               	bcf	3,6	;RP1=0, select bank0
+   312  0047  1D05               	btfss	5,2	;volatile
+   313  0048  284A               	goto	u51
+   314  0049  284C               	goto	u50
+   315  004A                     u51:
+   316  004A  3001               	movlw	1
+   317  004B  284D               	goto	u60
+   318  004C                     u50:
+   319  004C  3000               	movlw	0
+   320  004D                     u60:
+   321  004D  00F2               	movwf	??_main
+   322  004E  01F3               	clrf	??_main+1
+   323  004F  0872               	movf	??_main,w
+   324  0050  00F6               	movwf	main@button
+   325  0051  0873               	movf	??_main+1,w
+   326  0052  00F7               	movwf	main@button+1
+   327  0053                     l650:
+   328                           
+   329                           ;main.c: 49:             if((button == 1) && (oldButton == 0)){
+   330  0053  0376               	decf	main@button,w
+   331  0054  0477               	iorwf	main@button+1,w
+   332  0055  1D03               	btfss	3,2
+   333  0056  2858               	goto	u71
+   334  0057  2859               	goto	u70
+   335  0058                     u71:
+   336  0058  2874               	goto	l660
+   337  0059                     u70:
+   338  0059                     l652:
+   339  0059  0874               	movf	main@oldButton,w
+   340  005A  0475               	iorwf	main@oldButton+1,w
+   341  005B  1D03               	btfss	3,2
+   342  005C  285E               	goto	u81
+   343  005D  285F               	goto	u80
+   344  005E                     u81:
+   345  005E  2874               	goto	l660
+   346  005F                     u80:
+   347  005F                     l654:
+   348                           
+   349                           ;main.c: 50:                 gameChoose++;
+   350  005F  3001               	movlw	1
+   351  0060  07F8               	addwf	_gameChoose,f
+   352  0061  1803               	skipnc
+   353  0062  0AF9               	incf	_gameChoose+1,f
+   354  0063  3000               	movlw	0
+   355  0064  07F9               	addwf	_gameChoose+1,f
+   356  0065                     l656:
+   357                           
+   358                           ;main.c: 51:                 if(gameChoose > 3){
+   359  0065  0879               	movf	_gameChoose+1,w
+   360  0066  3A80               	xorlw	128
+   361  0067  00FF               	movwf	btemp+1
+   362  0068  3080               	movlw	128
+   363  0069  027F               	subwf	btemp+1,w
+   364  006A  1D03               	skipz
+   365  006B  286E               	goto	u95
+   366  006C  3004               	movlw	4
+   367  006D  0278               	subwf	_gameChoose,w
+   368  006E                     u95:
+   369  006E  1C03               	skipc
+   370  006F  2871               	goto	u91
+   371  0070  2872               	goto	u90
+   372  0071                     u91:
+   373  0071  2874               	goto	l660
+   374  0072                     u90:
+   375  0072                     l658:
+   376                           
+   377                           ;main.c: 52:                     gameChoose = 0;
+   378  0072  01F8               	clrf	_gameChoose
+   379  0073  01F9               	clrf	_gameChoose+1
+   380  0074                     l660:
+   381                           
+   382                           ;main.c: 56:         oldButton = button;
+   383  0074  0877               	movf	main@button+1,w
+   384  0075  00F5               	movwf	main@oldButton+1
+   385  0076  0876               	movf	main@button,w
+   386  0077  00F4               	movwf	main@oldButton
+   387  0078  2822               	goto	l23
+   388  0079  280A               	ljmp	start
+   389  007A                     __end_of_main:
+   390                           
+   391                           	psect	text1
+   392  007A                     __ptext1:	
+   393 ;; *************** function _lampeggio *****************
+   394 ;; Defined at:
+   395 ;;		line 61 in file "main.c"
+   396 ;; Parameters:    Size  Location     Type
+   397 ;;		None
+   398 ;; Auto vars:     Size  Location     Type
+   399 ;;		None
+   400 ;; Return value:  Size  Location     Type
+   401 ;;                  1    wreg      void 
+   402 ;; Registers used:
+   403 ;;		wreg, status,2, status,0
+   404 ;; Tracked objects:
+   405 ;;		On entry : 0/0
+   406 ;;		On exit  : 0/0
+   407 ;;		Unchanged: 0/0
+   408 ;; Data sizes:     COMMON   BANK0   BANK1   BANK2
+   409 ;;      Params:         0       0       0       0
+   410 ;;      Locals:         0       0       0       0
+   411 ;;      Temps:          2       0       0       0
+   412 ;;      Totals:         2       0       0       0
+   413 ;;Total ram usage:        2 bytes
+   414 ;; Hardware stack levels used:    1
+   415 ;; This function calls:
+   416 ;;		Nothing
+   417 ;; This function is called by:
+   418 ;;		Interrupt level 1
+   419 ;; This function uses a non-reentrant model
+   420 ;;
+   421                           
+   422                           
+   423                           ;psect for function _lampeggio
+   424  007A                     _lampeggio:
+   425  007A                     i1l662:
+   426                           
+   427                           ;main.c: 63:     if(INTCON & 0x04){
+   428  007A  1D0B               	btfss	11,2	;volatile
+   429  007B  287D               	goto	u10_21
+   430  007C  287E               	goto	u10_20
+   431  007D                     u10_21:
+   432  007D  28CF               	goto	i1l42
+   433  007E                     u10_20:
+   434  007E                     i1l664:
+   435                           
+   436                           ;main.c: 64:         count ++;
+   437  007E  3001               	movlw	1
+   438  007F  07FA               	addwf	_count,f
+   439  0080  1803               	skipnc
+   440  0081  0AFB               	incf	_count+1,f
+   441  0082  3000               	movlw	0
+   442  0083  07FB               	addwf	_count+1,f
+   443  0084                     i1l666:
+   444                           
+   445                           ;main.c: 66:         if(gameChoose == 0 && count == 15)
+   446  0084  0878               	movf	_gameChoose,w
+   447  0085  0479               	iorwf	_gameChoose+1,w
+   448  0086  1D03               	btfss	3,2
+   449  0087  2889               	goto	u11_21
+   450  0088  288A               	goto	u11_20
+   451  0089                     u11_21:
+   452  0089  2897               	goto	i1l674
+   453  008A                     u11_20:
+   454  008A                     i1l668:
+   455  008A  300F               	movlw	15
+   456  008B  067A               	xorwf	_count,w
+   457  008C  047B               	iorwf	_count+1,w
+   458  008D  1D03               	btfss	3,2
+   459  008E  2890               	goto	u12_21
+   460  008F  2891               	goto	u12_20
+   461  0090                     u12_21:
+   462  0090  2897               	goto	i1l674
+   463  0091                     u12_20:
+   464  0091                     i1l670:
+   465                           
+   466                           ;main.c: 67:         {;main.c: 68:             PORTB = ~PORTB;
+   467  0091  1283               	bcf	3,5	;RP0=0, select bank0
+   468  0092  1303               	bcf	3,6	;RP1=0, select bank0
+   469  0093  0986               	comf	6,f	;volatile
+   470  0094                     i1l672:
+   471                           
+   472                           ;main.c: 69:             count = 0;
+   473  0094  01FA               	clrf	_count
+   474  0095  01FB               	clrf	_count+1
+   475                           
+   476                           ;main.c: 70:         }else if(gameChoose == 1 && count == 30)
+   477  0096  28CC               	goto	i1l698
+   478  0097                     i1l674:
+   479  0097  0378               	decf	_gameChoose,w
+   480  0098  0479               	iorwf	_gameChoose+1,w
+   481  0099  1D03               	btfss	3,2
+   482  009A  289C               	goto	u13_21
+   483  009B  289D               	goto	u13_20
+   484  009C                     u13_21:
+   485  009C  28A8               	goto	i1l682
+   486  009D                     u13_20:
+   487  009D                     i1l676:
+   488  009D  301E               	movlw	30
+   489  009E  067A               	xorwf	_count,w
+   490  009F  047B               	iorwf	_count+1,w
+   491  00A0  1D03               	btfss	3,2
+   492  00A1  28A3               	goto	u14_21
+   493  00A2  28A4               	goto	u14_20
+   494  00A3                     u14_21:
+   495  00A3  28A8               	goto	i1l682
+   496  00A4                     u14_20:
+   497  00A4                     i1l678:
+   498                           
+   499                           ;main.c: 71:         {;main.c: 72:             PORTB = ~PORTB;
+   500  00A4  1283               	bcf	3,5	;RP0=0, select bank0
+   501  00A5  1303               	bcf	3,6	;RP1=0, select bank0
+   502  00A6  0986               	comf	6,f	;volatile
+   503  00A7  2894               	goto	i1l672
+   504  00A8                     i1l682:
+   505  00A8  3002               	movlw	2
+   506  00A9  0678               	xorwf	_gameChoose,w
+   507  00AA  0479               	iorwf	_gameChoose+1,w
+   508  00AB  1D03               	btfss	3,2
+   509  00AC  28AE               	goto	u15_21
+   510  00AD  28AF               	goto	u15_20
+   511  00AE                     u15_21:
+   512  00AE  28BA               	goto	i1l690
+   513  00AF                     u15_20:
+   514  00AF                     i1l684:
+   515  00AF  303C               	movlw	60
+   516  00B0  067A               	xorwf	_count,w
+   517  00B1  047B               	iorwf	_count+1,w
+   518  00B2  1D03               	btfss	3,2
+   519  00B3  28B5               	goto	u16_21
+   520  00B4  28B6               	goto	u16_20
+   521  00B5                     u16_21:
+   522  00B5  28BA               	goto	i1l690
+   523  00B6                     u16_20:
+   524  00B6                     i1l686:
+   525                           
+   526                           ;main.c: 75:         {;main.c: 76:             PORTB = ~PORTB;
+   527  00B6  1283               	bcf	3,5	;RP0=0, select bank0
+   528  00B7  1303               	bcf	3,6	;RP1=0, select bank0
+   529  00B8  0986               	comf	6,f	;volatile
+   530  00B9  2894               	goto	i1l672
+   531  00BA                     i1l690:
+   532  00BA  3003               	movlw	3
+   533  00BB  0678               	xorwf	_gameChoose,w
+   534  00BC  0479               	iorwf	_gameChoose+1,w
+   535  00BD  1D03               	btfss	3,2
+   536  00BE  28C0               	goto	u17_21
+   537  00BF  28C1               	goto	u17_20
+   538  00C0                     u17_21:
+   539  00C0  28CC               	goto	i1l38
+   540  00C1                     u17_20:
+   541  00C1                     i1l692:
+   542  00C1  3078               	movlw	120
+   543  00C2  067A               	xorwf	_count,w
+   544  00C3  047B               	iorwf	_count+1,w
+   545  00C4  1D03               	btfss	3,2
+   546  00C5  28C7               	goto	u18_21
+   547  00C6  28C8               	goto	u18_20
+   548  00C7                     u18_21:
+   549  00C7  28CC               	goto	i1l38
+   550  00C8                     u18_20:
+   551  00C8                     i1l694:
+   552                           
+   553                           ;main.c: 79:         {;main.c: 80:             PORTB = ~PORTB;
+   554  00C8  1283               	bcf	3,5	;RP0=0, select bank0
+   555  00C9  1303               	bcf	3,6	;RP1=0, select bank0
+   556  00CA  0986               	comf	6,f	;volatile
+   557  00CB  2894               	goto	i1l672
+   558  00CC                     i1l38:
+   559  00CC                     i1l698:
+   560                           
+   561                           ;main.c: 84:         INTCON = INTCON & ~0x04;
+   562  00CC  080B               	movf	11,w	;volatile
+   563  00CD  39FB               	andlw	251
+   564  00CE  008B               	movwf	11	;volatile
+   565  00CF                     i1l42:
+   566  00CF  0871               	movf	??_lampeggio+1,w
+   567  00D0  008A               	movwf	10
+   568  00D1  0E70               	swapf	??_lampeggio,w
+   569  00D2  0083               	movwf	3
+   570  00D3  0EFE               	swapf	btemp,f
+   571  00D4  0E7E               	swapf	btemp,w
+   572  00D5  0009               	retfie
+   573  00D6                     __end_of_lampeggio:
+   574  007E                     btemp	set	126	;btemp
+   575  007E                     wtemp0	set	126
+   576                           
+   577                           	psect	intentry
+   578  0004                     __pintentry:	
+   579                           ;incstack = 0
+   580                           ; Regs used in _lampeggio: [wreg+status,2+status,0]
+   581                           
+   582  0004                     interrupt_function:
+   583  007E                     saved_w	set	btemp
+   584  0004  00FE               	movwf	btemp
+   585  0005  0E03               	swapf	3,w
+   586  0006  00F0               	movwf	??_lampeggio
+   587  0007  080A               	movf	10,w
+   588  0008  00F1               	movwf	??_lampeggio+1
+   589  0009  287A               	ljmp	_lampeggio
+   590                           
+   591                           	psect	config
+   592                           
+   593                           ;Config register CONFIG @ 0x2007
+   594                           ;	Oscillator Selection bits
+   595                           ;	FOSC = HS, HS oscillator: High-speed crystal/resonator on RA6/OSC2/CLKOUT and RA7/OSC1
+      +                          /CLKIN
+   596                           ;	Watchdog Timer Enable bit
+   597                           ;	WDTE = OFF, WDT disabled
+   598                           ;	Power-up Timer Enable bit
+   599                           ;	PWRTE = ON, PWRT enabled
+   600                           ;	RA5/MCLR/VPP Pin Function Select bit
+   601                           ;	MCLRE = ON, RA5/MCLR/VPP pin function is MCLR
+   602                           ;	Brown-out Detect Enable bit
+   603                           ;	BOREN = ON, BOD enabled
+   604                           ;	Low-Voltage Programming Enable bit
+   605                           ;	LVP = OFF, RB4/PGM pin has digital I/O function, HV on MCLR must be used for programmi
+      +                          ng
+   606                           ;	Data EE Memory Code Protection bit
+   607                           ;	CPD = OFF, Data memory code protection off
+   608                           ;	Flash Program Memory Code Protection bit
+   609                           ;	CP = OFF, Code protection off
+   610  2007                     	org	8199
+   611  2007  3F62               	dw	16226
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         4
+    Persistent  0
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMMON           14      8      12
+    BANK0            80      0       0
+    BANK1            80      0       0
+    BANK2            48      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMMON
+
+    None.
+
+Critical Paths under _lampeggio in COMMON
+
+    None.
+
+Critical Paths under _main in BANK0
+
+    None.
+
+Critical Paths under _lampeggio in BANK0
+
+    None.
+
+Critical Paths under _main in BANK1
+
+    None.
+
+Critical Paths under _lampeggio in BANK1
+
+    None.
+
+Critical Paths under _main in BANK2
+
+    None.
+
+Critical Paths under _lampeggio in BANK2
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 6     6      0      75
+                                              2 COMMON     6     6      0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 0
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (1) _lampeggio                                            2     2      0       0
+                                              0 COMMON     2     2      0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 1
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+
+ _lampeggio (ROOT)
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BITCOMMON            E      0       0       0        0.0%
+EEDATA              80      0       0       0        0.0%
+NULL                 0      0       0       0        0.0%
+CODE                 0      0       0       0        0.0%
+COMMON               E      8       C       1       85.7%
+BITSFR0              0      0       0       1        0.0%
+SFR0                 0      0       0       1        0.0%
+BITSFR1              0      0       0       2        0.0%
+SFR1                 0      0       0       2        0.0%
+STACK                0      0       0       2        0.0%
+BANK0               50      0       0       3        0.0%
+BITSFR3              0      0       0       4        0.0%
+SFR3                 0      0       0       4        0.0%
+ABS                  0      0       C       4        0.0%
+BITBANK0            50      0       0       5        0.0%
+BITSFR2              0      0       0       5        0.0%
+SFR2                 0      0       0       5        0.0%
+BITBANK1            50      0       0       6        0.0%
+BANK1               50      0       0       7        0.0%
+BITBANK2            30      0       0       8        0.0%
+BANK2               30      0       0       9        0.0%
+DATA                 0      0       C      10        0.0%
+
+
+Microchip Technology PIC Macro Assembler V2.31 build 20201012212115 
+Symbol Table                                                                                   Fri Nov 20 12:47:31 2020
+
+                     l23 0022                       u10 0029                       u11 0027  
+                     u20 002A                       u30 0036                       u31 0035  
+                     u40 003C                       u41 003B                       u50 004C  
+                     u51 004A                       u60 004D                       u70 0059  
+                     u71 0058                       u80 005F                       u81 005E  
+                     u90 0072                       u91 0071                       u95 006E  
+                    l640 001C                      l650 0053                      l642 0020  
+                    l634 0011                      l652 0059                      l660 0074  
+                    l644 0030                      l636 0017                      l654 005F  
+                    l646 0036                      l638 0018                      l656 0065  
+                    l648 003C                      l658 0072                      u197 0040  
+                   i1l42 00CF                     i1l38 00CC                     _main 0011  
+                   btemp 007E                     start 000A                    ?_main 0070  
+                  i1l670 0091                    i1l662 007A                    i1l672 0094  
+                  i1l664 007E                    i1l690 00BA                    i1l682 00A8  
+                  i1l674 0097                    i1l666 0084                    i1l692 00C1  
+                  i1l684 00AF                    i1l676 009D                    i1l668 008A  
+                  i1l694 00C8                    i1l686 00B6                    i1l678 00A4  
+                  i1l698 00CC                    u10_20 007E                    u10_21 007D  
+                  u11_20 008A                    u11_21 0089                    u12_20 0091  
+                  u12_21 0090                    u13_20 009D                    u13_21 009C  
+                  u14_20 00A4                    u14_21 00A3                    u15_20 00AF  
+                  u15_21 00AE                    u16_20 00B6                    u16_21 00B5  
+                  u17_20 00C1                    u17_21 00C0                    u18_20 00C8  
+                  u18_21 00C7                    _PORTA 0005                    _PORTB 0006  
+                  _TRISA 0085                    _TRISB 0086                    _count 007A  
+                  pclath 000A                    status 0003                    wtemp0 007E  
+        __initialization 000B             __end_of_main 007A                   ??_main 0072  
+                 _INTCON 000B            main@oldButton 0074                   saved_w 007E  
+__end_of__initialization 000F           __pcstackCOMMON 0070       __size_of_lampeggio 005C  
+             _gameChoose 0078               __pmaintext 0011               __pintentry 0004  
+      __end_of_lampeggio 00D6                  __ptext1 007A     end_of_initialization 000F  
+             main@button 0076      start_initialization 000B              __pbssCOMMON 0078  
+              ___latbits 0000                _lampeggio 007A        interrupt_function 0004  
+             ?_lampeggio 0070            __size_of_main 0069              ??_lampeggio 0070  
+               intlevel1 0000               _OPTION_REG 0081  

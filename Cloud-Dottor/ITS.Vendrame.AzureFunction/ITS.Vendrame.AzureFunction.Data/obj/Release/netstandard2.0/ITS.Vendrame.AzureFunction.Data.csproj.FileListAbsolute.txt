@@ -1,0 +1,9 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\bin\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\bin\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\bin\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\obj\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\obj\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\obj\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\obj\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\obj\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.AzureFunction\ITS.Vendrame.AzureFunction.Data\obj\Release\netstandard2.0\ITS.Vendrame.AzureFunction.Data.pdb

@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.Vendrame.AzureFunction.Watcher": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

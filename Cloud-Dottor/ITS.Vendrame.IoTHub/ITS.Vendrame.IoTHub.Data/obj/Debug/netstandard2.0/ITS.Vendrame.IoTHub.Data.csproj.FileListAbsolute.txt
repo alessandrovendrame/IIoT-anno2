@@ -1,0 +1,9 @@
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\bin\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.deps.json
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\bin\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.dll
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\bin\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.pdb
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.dll
+C:\Users\Alessandro Vendrame\source\repos\ITS.Vendrame.IoTHub\ITS.Vendrame.IoTHub.Data\obj\Debug\netstandard2.0\ITS.Vendrame.IoTHub.Data.pdb
