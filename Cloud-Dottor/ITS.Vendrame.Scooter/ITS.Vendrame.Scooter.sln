@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.Scooter.SpeedSensor", "ITS.Vendrame.Scooter.SpeedSensor\ITS.Vendrame.Scooter.SpeedSensor.csproj", "{4AA97DFB-116C-4D6E-A6C8-BEBB53A56872}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2D45E50-40D4-4530-A460-63B66EF59C98} = {C2D45E50-40D4-4530-A460-63B66EF59C98}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.Scooter.MovementSensor", "ITS.Vendrame.Scooter.MovementSensor\ITS.Vendrame.Scooter.MovementSensor.csproj", "{E70158D1-C191-4552-9BC7-0C04591F5BE2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2D45E50-40D4-4530-A460-63B66EF59C98} = {C2D45E50-40D4-4530-A460-63B66EF59C98}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.Scooter.PositionSensor", "ITS.Vendrame.Scooter.PositionSensor\ITS.Vendrame.Scooter.PositionSensor.csproj", "{2FAFFBFF-B7A5-4598-8658-CBBC18D7ADFA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2D45E50-40D4-4530-A460-63B66EF59C98} = {C2D45E50-40D4-4530-A460-63B66EF59C98}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.Scooter.BatterySensor", "ITS.Vendrame.Scooter.BatterySensor\ITS.Vendrame.Scooter.BatterySensor.csproj", "{B7D23A70-47A6-4940-9024-641E9CAA2786}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2D45E50-40D4-4530-A460-63B66EF59C98} = {C2D45E50-40D4-4530-A460-63B66EF59C98}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.Scooter.Data", "ITS.Vendrame.Scooter.Data\ITS.Vendrame.Scooter.Data.csproj", "{C2D45E50-40D4-4530-A460-63B66EF59C98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sensors", "Sensors", "{D2DF474F-4CCC-4E16-AE74-1E743C67594F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AA97DFB-116C-4D6E-A6C8-BEBB53A56872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA97DFB-116C-4D6E-A6C8-BEBB53A56872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA97DFB-116C-4D6E-A6C8-BEBB53A56872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA97DFB-116C-4D6E-A6C8-BEBB53A56872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70158D1-C191-4552-9BC7-0C04591F5BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70158D1-C191-4552-9BC7-0C04591F5BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70158D1-C191-4552-9BC7-0C04591F5BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70158D1-C191-4552-9BC7-0C04591F5BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAFFBFF-B7A5-4598-8658-CBBC18D7ADFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAFFBFF-B7A5-4598-8658-CBBC18D7ADFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAFFBFF-B7A5-4598-8658-CBBC18D7ADFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAFFBFF-B7A5-4598-8658-CBBC18D7ADFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D23A70-47A6-4940-9024-641E9CAA2786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D23A70-47A6-4940-9024-641E9CAA2786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D23A70-47A6-4940-9024-641E9CAA2786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D23A70-47A6-4940-9024-641E9CAA2786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D45E50-40D4-4530-A460-63B66EF59C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D45E50-40D4-4530-A460-63B66EF59C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D45E50-40D4-4530-A460-63B66EF59C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D45E50-40D4-4530-A460-63B66EF59C98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AA97DFB-116C-4D6E-A6C8-BEBB53A56872} = {D2DF474F-4CCC-4E16-AE74-1E743C67594F}
+		{E70158D1-C191-4552-9BC7-0C04591F5BE2} = {D2DF474F-4CCC-4E16-AE74-1E743C67594F}
+		{2FAFFBFF-B7A5-4598-8658-CBBC18D7ADFA} = {D2DF474F-4CCC-4E16-AE74-1E743C67594F}
+		{B7D23A70-47A6-4940-9024-641E9CAA2786} = {D2DF474F-4CCC-4E16-AE74-1E743C67594F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F911018C-6E07-400E-AF11-84F7B17D1723}
+	EndGlobalSection
+EndGlobal

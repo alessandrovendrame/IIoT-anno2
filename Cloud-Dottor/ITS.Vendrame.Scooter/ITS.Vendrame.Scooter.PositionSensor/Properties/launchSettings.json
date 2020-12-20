@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.Vendrame.Scooter.PositionSensor": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

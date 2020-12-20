@@ -1,0 +1,63 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"50 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\2020_12_11_ScritturaSuSchermo.X\ScriviSuDisplay_Vendrame.c
+[v _main main `(v  1 e 1 0 ]
+"129
+[v _IRC IRC `II(v  1 e 1 0 ]
+"59 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"166
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"454
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"25 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\2020_12_11_ScritturaSuSchermo.X\ScriviSuDisplay_Vendrame.c
+[v _colScan colScan `i  1 e 2 0 ]
+[v _rowScan rowScan `i  1 e 2 0 ]
+"26
+[v _keyPressed keyPressed `uc  1 e 1 0 ]
+[v _keyok keyok `uc  1 e 1 0 ]
+"27
+[v _contatore contatore `i  1 e 2 0 ]
+"28
+[v _stato stato `i  1 e 2 0 ]
+"30
+[v _colMask colMask `DC[3]uc  1 e 3 0 ]
+"37
+[v _rowMask rowMask `DC[4]uc  1 e 4 0 ]
+"45
+[v _displayRegular displayRegular `DC[16]uc  1 e 16 0 ]
+"48
+[v _keys keys `DC[12]uc  1 e 12 0 ]
+"50
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+} 0
+"129
+[v _IRC IRC `II(v  1 e 1 0 ]
+{
+"137
+} 0

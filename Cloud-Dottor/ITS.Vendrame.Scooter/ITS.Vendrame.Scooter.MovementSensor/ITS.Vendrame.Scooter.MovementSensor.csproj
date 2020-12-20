@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-ITS.Vendrame.Scooter.MovementSensor-EB6D0BCC-DDE5-4854-882F-ECBE1CB1F7CC</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Vendrame.Scooter.Data\ITS.Vendrame.Scooter.Data.csproj" />
+  </ItemGroup>
+</Project>
