@@ -1,0 +1,15 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\bin\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\bin\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\bin\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\bin\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\bin\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\bin\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\bin\Debug\netcoreapp3.1\M2Mqtt.Net.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.csproj.CopyComplete
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.MQTT_Test\ITS.Vendrame.MQTT_Broker\obj\Debug\netcoreapp3.1\ITS.Vendrame.MQTT_Broker.genruntimeconfig.cache

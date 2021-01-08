@@ -1,0 +1,12 @@
+CREATE DATABASE esame_libri;
+
+USE esame_libri;
+
+CREATE TABLE books(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL,
+	author VARCHAR(100) NOT NULL,
+	price FLOAT NOT NULL,
+	imageUrl VARCHAR(150) NULL,
+	url VARCHAR(150) NULL
+        );
