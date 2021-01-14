@@ -1,0 +1,12 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\bin\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\bin\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\obj\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\obj\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\obj\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\bin\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\obj\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\obj\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\obj\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\bin\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\bin\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Services\obj\Debug\netcoreapp3.1\ITS.Vendrame.ServiceBus.Services.csproj.CopyComplete

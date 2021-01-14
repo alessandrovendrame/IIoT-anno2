@@ -1,0 +1,9 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\bin\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\bin\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\bin\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\obj\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\obj\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\obj\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\obj\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\obj\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Cloud-Dottor\ITS.Vendrame.ServiceBus\ITS.Vendrame.ServiceBus.Data\obj\Debug\netstandard2.0\ITS.Vendrame.ServiceBus.Data.csproj.CoreCompileInputs.cache

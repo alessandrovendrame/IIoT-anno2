@@ -1,0 +1,13 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\bin\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\bin\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\bin\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\bin\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\bin\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\bin\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\obj\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\obj\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\obj\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\obj\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\obj\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\obj\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Python-Mungherli\PrintaFile\ITS.Vendrame.EditFile\ITS.Vendrame.EditFile\obj\Debug\netcoreapp3.1\ITS.Vendrame.EditFile.genruntimeconfig.cache

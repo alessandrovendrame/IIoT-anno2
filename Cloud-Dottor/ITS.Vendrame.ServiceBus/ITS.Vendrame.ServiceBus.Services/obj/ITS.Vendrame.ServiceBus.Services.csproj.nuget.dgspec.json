@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Services\\ITS.Vendrame.ServiceBus.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Data\\ITS.Vendrame.ServiceBus.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Data\\ITS.Vendrame.ServiceBus.Data.csproj",
+        "projectName": "ITS.Vendrame.ServiceBus.Data",
+        "projectPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Data\\ITS.Vendrame.ServiceBus.Data.csproj",
+        "packagesPath": "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alessandro Vendrame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Services\\ITS.Vendrame.ServiceBus.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Services\\ITS.Vendrame.ServiceBus.Services.csproj",
+        "projectName": "ITS.Vendrame.ServiceBus.Services",
+        "projectPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Services\\ITS.Vendrame.ServiceBus.Services.csproj",
+        "packagesPath": "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alessandro Vendrame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Data\\ITS.Vendrame.ServiceBus.Data.csproj": {
+                "projectPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\ITS.Vendrame.ServiceBus\\ITS.Vendrame.ServiceBus.Data\\ITS.Vendrame.ServiceBus.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
