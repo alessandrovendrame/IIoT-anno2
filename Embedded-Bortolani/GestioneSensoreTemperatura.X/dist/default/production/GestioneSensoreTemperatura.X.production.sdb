@@ -1,0 +1,338 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"64 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\GestioneSensoreTemperatura.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"110
+[v _getRealTemperature getRealTemperature `(i  1 e 2 0 ]
+"119
+[v _manageTemperature manageTemperature `(v  1 e 1 0 ]
+"128
+[v _checkKeypad checkKeypad `(v  1 e 1 0 ]
+"164
+[v _read_ADC read_ADC `(i  1 e 2 0 ]
+"173
+[v _write_string write_string `(v  1 e 1 0 ]
+"182
+[v _write_char write_char `(v  1 e 1 0 ]
+"186
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+"193
+[v _initPic initPic `(v  1 e 1 0 ]
+"205
+[v _initDisplayLCD initDisplayLCD `(v  1 e 1 0 ]
+"223
+[v _sendCommand sendCommand `(v  1 e 1 0 ]
+"234
+[v _sendData sendData `(v  1 e 1 0 ]
+"245
+[v _ISR ISR `II(v  1 e 1 0 ]
+"59 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"166
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"402
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"454
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"25 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\GestioneSensoreTemperatura.X\main.c
+[v _rowMask rowMask `DC[4]uc  1 e 4 0 ]
+"32
+[v _colMask colMask `DC[3]uc  1 e 3 0 ]
+"38
+[v _colScan colScan `uc  1 e 1 0 ]
+"39
+[v _rowScan rowScan `uc  1 e 1 0 ]
+"40
+[v _keypressed keypressed `uc  1 e 1 0 ]
+"41
+[v _keyok keyok `uc  1 e 1 0 ]
+"42
+[v _count count `i  1 e 2 0 ]
+[v _pwm pwm `i  1 e 2 0 ]
+"43
+[v _delayBtn delayBtn `i  1 e 2 0 ]
+"44
+[v _setpointTemperature setpointTemperature `i  1 e 2 0 ]
+"46
+[v _val_ADC val_ADC `i  1 e 2 0 ]
+"47
+[v _c1 c1 `uc  1 e 1 0 ]
+[v _c2 c2 `uc  1 e 1 0 ]
+[v _c3 c3 `uc  1 e 1 0 ]
+[v _c4 c4 `uc  1 e 1 0 ]
+[v _t1 t1 `uc  1 e 1 0 ]
+[v _t2 t2 `uc  1 e 1 0 ]
+"48
+[v _temp1 temp1 `i  1 e 2 0 ]
+"49
+[v _volt volt `d  1 e 4 0 ]
+[v _temp temp `d  1 e 4 0 ]
+"50
+[v _change change `uc  1 e 1 0 ]
+"64
+[v _main main `(v  1 e 1 0 ]
+{
+"96
+[v main@setPointString setPointString `[12]uc  1 a 12 49 ]
+"85
+[v main@tempString tempString `[7]uc  1 a 7 61 ]
+"84
+[v main@F892 F892 `[7]uc  1 s 7 F892 ]
+"95
+[v main@F894 F894 `[12]uc  1 s 12 F894 ]
+"109
+} 0
+"173
+[v _write_string write_string `(v  1 e 1 0 ]
+{
+[v write_string@scritta scritta `*.4uc  1 a 1 wreg ]
+"175
+[v write_string@i i `i  1 a 2 6 ]
+"173
+[v write_string@scritta scritta `*.4uc  1 a 1 wreg ]
+"175
+[v write_string@scritta scritta `*.4uc  1 a 1 8 ]
+"181
+} 0
+"182
+[v _write_char write_char `(v  1 e 1 0 ]
+{
+[v write_char@c c `uc  1 a 1 wreg ]
+[v write_char@c c `uc  1 a 1 wreg ]
+"184
+[v write_char@c c `uc  1 a 1 5 ]
+"185
+} 0
+"234
+[v _sendData sendData `(v  1 e 1 0 ]
+{
+[v sendData@d d `uc  1 a 1 wreg ]
+[v sendData@d d `uc  1 a 1 wreg ]
+"236
+[v sendData@d d `uc  1 a 1 4 ]
+"243
+} 0
+"119
+[v _manageTemperature manageTemperature `(v  1 e 1 0 ]
+{
+[v manageTemperature@t1 t1 `i  1 p 2 0 ]
+[v manageTemperature@t2 t2 `i  1 p 2 2 ]
+"126
+} 0
+"186
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+{
+"192
+} 0
+"193
+[v _initPic initPic `(v  1 e 1 0 ]
+{
+"204
+} 0
+"205
+[v _initDisplayLCD initDisplayLCD `(v  1 e 1 0 ]
+{
+"221
+} 0
+"223
+[v _sendCommand sendCommand `(v  1 e 1 0 ]
+{
+[v sendCommand@cmd cmd `uc  1 a 1 wreg ]
+[v sendCommand@cmd cmd `uc  1 a 1 wreg ]
+"225
+[v sendCommand@cmd cmd `uc  1 a 1 4 ]
+"232
+} 0
+"110
+[v _getRealTemperature getRealTemperature `(i  1 e 2 0 ]
+{
+"118
+} 0
+"164
+[v _read_ADC read_ADC `(i  1 e 2 0 ]
+{
+[v read_ADC@ch ch `uc  1 a 1 wreg ]
+[v read_ADC@ch ch `uc  1 a 1 wreg ]
+"166
+[v read_ADC@ch ch `uc  1 a 1 5 ]
+"172
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 2 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 0 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 42 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 41 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 32 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S445 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S450 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S453 . 4 `l 1 i 4 0 `d 1 f 4 0 `S445 1 fAsBytes 4 0 `S450 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S453  1 a 4 26 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 21 ]
+[s S522 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S525 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S522 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S525  1 a 2 30 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 25 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 20 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 19 ]
+"8
+[v ___flmul@b b `d  1 p 4 6 ]
+[v ___flmul@a a `d  1 p 4 10 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 2 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 4 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 12 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 5 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 10 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 17 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 16 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 9 ]
+"8
+[v ___fldiv@a a `d  1 p 4 2 ]
+[v ___fldiv@b b `d  1 p 4 6 ]
+"185
+} 0
+"128 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\GestioneSensoreTemperatura.X\main.c
+[v _checkKeypad checkKeypad `(v  1 e 1 0 ]
+{
+"163
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 6 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 9 ]
+[v ___awmod@counter counter `uc  1 a 1 8 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 4 ]
+[v ___awmod@dividend dividend `i  1 p 2 6 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+"41
+} 0
+"245 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\GestioneSensoreTemperatura.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"259
+} 0

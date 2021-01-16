@@ -7,8 +7,6 @@ dictionary = []
 latin_phrase = []
 word = []
 
-fr = open("C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Python-Mungherli\\decifraStringa\\dictionary.txt", "r")
-
 #SEGNARSI QUANTE SONO LE LETTERE, CONFRONTI LA FREQUENZA DELLE LETTERE CON LA FREQUENZA DELLE LETTERE LATINE
 
 for letter in crypt_string:
