@@ -17,6 +17,11 @@ namespace ITS.Vendrame.ServiceBus.Data.Models
             DetectionTime = detectionTime;
         }
 
+        public FridgeStorageEntity()
+        {
+
+        }
+
         public int IdFridge { get; set; }
         public double DetectedTemperature { get; set; }
         public double SettedTemperature { get; set; }

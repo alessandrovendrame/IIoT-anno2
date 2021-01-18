@@ -26,9 +26,11 @@ namespace ITS.Vendrame.ServiceBus.WebApp.Controllers
 
         // GET: api/Fridge
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<FridgeStorageEntity> Get()
         {
-            return new string[] { "value1", "value2" };
+            ServiceBusLibrary service = new ServiceBusLibrary(_configuration);
+
+            return service.GetData();
         }
 
         // GET: api/Fridge/5

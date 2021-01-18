@@ -4,6 +4,8 @@ using Microsoft.Azure.Cosmos.Table;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -29,6 +31,17 @@ namespace ITS.Vendrame.ServiceBus.Services.Services
                 await sender.SendMessageAsync(new ServiceBusMessage(fridgeToJson));
                 Console.WriteLine($"Sent a single message to the topic: {topicName}");
             }
+        }
+
+        public IEnumerable<FridgeStorageEntity> GetData()
+        {
+            var cs = _configuration.GetConnectionString("tableStorage");
+            var storageAccount = CloudStorageAccount.Parse(cs);
+            var tableClient = storageAccount.CreateCloudTableClient(new TableClientConfiguration());
+            var fridgeClient = tableClient.GetTableReference("fridges");
+
+            var entities = fridgeClient.ExecuteQuery(new TableQuery<FridgeStorageEntity>()).ToList();
+            return entities;
         }
 
         public async Task AlertMessageHandler(ProcessMessageEventArgs args)
