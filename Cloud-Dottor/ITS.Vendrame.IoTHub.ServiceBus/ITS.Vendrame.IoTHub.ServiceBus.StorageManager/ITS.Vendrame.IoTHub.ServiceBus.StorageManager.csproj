@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-ITS.Vendrame.IoTHub.ServiceBus.StorageManager-F3951E54-11B1-4A24-ABDD-52A699C469C4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Vendrame.IoTHub.ServiceBus.Data\ITS.Vendrame.IoTHub.ServiceBus.Data.csproj" />
+  </ItemGroup>
+</Project>

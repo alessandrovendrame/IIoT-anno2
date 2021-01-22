@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.Vendrame.IoTHub.ServiceBus.StorageManager": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
