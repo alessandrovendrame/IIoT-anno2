@@ -68,6 +68,7 @@ int read_ADC(char ch);
 void checkKeypad();
 void manageTemperature(int t1, int t2);
 void writeToDisplayLCD();
+
 void main(void) {
 
     initPic();
@@ -114,6 +115,7 @@ void main(void) {
     }
     return;
 }
+
 int getRealTemperature()
 {
     val_ADC = read_ADC(channel);

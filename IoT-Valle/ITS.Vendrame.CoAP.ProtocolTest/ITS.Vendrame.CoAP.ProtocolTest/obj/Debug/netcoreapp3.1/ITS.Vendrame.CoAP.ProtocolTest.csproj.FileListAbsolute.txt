@@ -1,0 +1,17 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\CoAP.NET.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\bin\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.csproj.CopyComplete
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\IoT-Valle\ITS.Vendrame.CoAP.ProtocolTest\ITS.Vendrame.CoAP.ProtocolTest\obj\Debug\netcoreapp3.1\ITS.Vendrame.CoAP.ProtocolTest.genruntimeconfig.cache

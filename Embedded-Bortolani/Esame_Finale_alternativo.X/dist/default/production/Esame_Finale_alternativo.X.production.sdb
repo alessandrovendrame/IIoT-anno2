@@ -1,0 +1,207 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"87 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\Esame_Finale_alternativo.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"117
+[v _initPic initPic `(v  1 e 1 0 ]
+"127
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+"135
+[v _init_LCD init_LCD `(v  1 e 1 0 ]
+"152
+[v _map map `(i  1 e 2 0 ]
+"156
+[v _readADC readADC `(i  1 e 2 0 ]
+"167
+[v _sendCommand sendCommand `(v  1 e 1 0 ]
+"178
+[v _sendData sendData `(v  1 e 1 0 ]
+"190
+[v _write_char write_char `(v  1 e 1 0 ]
+"195
+[v _write_string write_string `(v  1 e 1 0 ]
+"209
+[v _pow pow `(d  1 e 4 0 ]
+"218
+[v _checkKeypad checkKeypad `(uc  1 e 1 0 ]
+"268
+[v _ISR ISR `II(v  1 e 1 0 ]
+"59 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"402
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"454
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"48 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\Esame_Finale_alternativo.X\main.c
+[v _pin pin `DC[4]uc  1 e 4 0 ]
+"73
+[v _keyok keyok `uc  1 e 1 0 ]
+"75
+[v _delayBtn delayBtn `i  1 e 2 0 ]
+"79
+[v _old_val old_val `i  1 e 2 0 ]
+"80
+[v _val_ADC val_ADC `i  1 e 2 0 ]
+"82
+[v _key key `uc  1 e 1 0 ]
+"83
+[v _str str `[2]uc  1 e 2 0 ]
+"84
+[v _insertedPin insertedPin `[4]uc  1 e 4 0 ]
+"87
+[v _main main `(v  1 e 1 0 ]
+{
+"98
+[v main@a a `uc  1 a 1 18 ]
+"115
+} 0
+"195
+[v _write_string write_string `(v  1 e 1 0 ]
+{
+[v write_string@str str `*.24uc  1 a 1 wreg ]
+"196
+[v write_string@i i `i  1 a 2 5 ]
+"195
+[v write_string@str str `*.24uc  1 a 1 wreg ]
+[v write_string@str str `*.24uc  1 a 1 7 ]
+"199
+} 0
+"190
+[v _write_char write_char `(v  1 e 1 0 ]
+{
+[v write_char@c c `uc  1 a 1 wreg ]
+[v write_char@c c `uc  1 a 1 wreg ]
+"192
+[v write_char@c c `uc  1 a 1 5 ]
+"193
+} 0
+"178
+[v _sendData sendData `(v  1 e 1 0 ]
+{
+[v sendData@d d `uc  1 a 1 wreg ]
+[v sendData@d d `uc  1 a 1 wreg ]
+"180
+[v sendData@d d `uc  1 a 1 4 ]
+"188
+} 0
+"156
+[v _readADC readADC `(i  1 e 2 0 ]
+{
+[v readADC@channel channel `uc  1 a 1 wreg ]
+[v readADC@channel channel `uc  1 a 1 wreg ]
+"158
+[v readADC@channel channel `uc  1 a 1 5 ]
+"165
+} 0
+"152
+[v _map map `(i  1 e 2 0 ]
+{
+[v map@x x `i  1 p 2 8 ]
+[v map@in_min in_min `i  1 p 2 10 ]
+[v map@in_max in_max `i  1 p 2 12 ]
+[v map@out_min out_min `i  1 p 2 14 ]
+[v map@out_max out_max `i  1 p 2 16 ]
+"154
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 6 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"135 C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\Embedded-Bortolani\Esame_Finale_alternativo.X\main.c
+[v _init_LCD init_LCD `(v  1 e 1 0 ]
+{
+"150
+} 0
+"167
+[v _sendCommand sendCommand `(v  1 e 1 0 ]
+{
+[v sendCommand@cmd cmd `uc  1 a 1 wreg ]
+[v sendCommand@cmd cmd `uc  1 a 1 wreg ]
+"169
+[v sendCommand@cmd cmd `uc  1 a 1 4 ]
+"176
+} 0
+"127
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+{
+"133
+} 0
+"117
+[v _initPic initPic `(v  1 e 1 0 ]
+{
+"125
+} 0
+"218
+[v _checkKeypad checkKeypad `(uc  1 e 1 0 ]
+{
+"246
+} 0
+"268
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"278
+} 0
