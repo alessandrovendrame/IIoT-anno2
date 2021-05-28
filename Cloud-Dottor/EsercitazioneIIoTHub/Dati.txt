@@ -1,0 +1,13 @@
+IoT Device:
+
+ - ID : CheeseCaveID
+ - connStri: HostName=CheeseCaveHub-Vendrame.azure-devices.net;DeviceId=CheeseCaveID;SharedAccessKey=XaEI2Y/PrEJaTeATzz6o5E+i4sdrlscLCgZzIZqZv78=
+
+
+Hub Service:
+
+ - connStri : HostName=CheeseCaveHub-Vendrame.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=rRcL3yc/heIpZFX7dwYnRoTAKMYccJDgzRiY6yvRItg=
+
+"sb://iothub-ns-cheesecave-10780184-bc3c5acd96.servicebus.windows.net/"
+"cheesecavehub-vendrame"
+"QvMB2nb7SDgOgRZlGhMhlUVPvENX8utv7UUHfTVnEa4="

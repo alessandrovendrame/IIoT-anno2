@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<a asp-page="/Products/InsertProduct" class="btn btn-info">Nuovo prodotto...</a>
+
+<hr/>
+
+<div class="container-fluid">
+    @foreach (var p in Model.Products)
+    {
+    <div class="row">
+        <div class="col-4">
+            <h2>@p.Name</h2>
+            <p>
+                Codice: @p.Code<br />
+                Id: @p.Id
+            </p>
+        </div>
+        <div class="mt-5 col-3">
+            <a asp-page="/Products/Details"
+               asp-route-id="@p.Id" class="btn btn-primary">Dettaglio</a>
+        </div>
+    </div>
+        
+        <hr />
+    }
+</div>

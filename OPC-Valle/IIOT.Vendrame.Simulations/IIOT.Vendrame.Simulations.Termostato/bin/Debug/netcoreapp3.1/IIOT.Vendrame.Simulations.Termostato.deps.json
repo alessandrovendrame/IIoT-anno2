@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "IIOT.Vendrame.Simulations.Termostato/1.0.0": {
+        "dependencies": {
+          "IIOT.Vendrame.Simulations.Data": "1.0.0"
+        },
+        "runtime": {
+          "IIOT.Vendrame.Simulations.Termostato.dll": {}
+        }
+      },
+      "IIOT.Vendrame.Simulations.Data/1.0.0": {
+        "runtime": {
+          "IIOT.Vendrame.Simulations.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IIOT.Vendrame.Simulations.Termostato/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IIOT.Vendrame.Simulations.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

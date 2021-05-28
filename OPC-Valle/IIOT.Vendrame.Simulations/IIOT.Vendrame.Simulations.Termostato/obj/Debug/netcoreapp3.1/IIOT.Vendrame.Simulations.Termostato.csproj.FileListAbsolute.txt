@@ -1,0 +1,16 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.csproj.CopyComplete
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Termostato\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Termostato.genruntimeconfig.cache

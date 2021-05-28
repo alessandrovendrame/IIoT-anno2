@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.C2D-Messagges.Device", "ITS.Vendrame.C2D-Messagges.Device\ITS.Vendrame.C2D-Messagges.Device.csproj", "{93990392-B650-4628-9714-C961C38CB61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.Vendrame.C2D-Messages.WebApp", "ITS.Vendrame.C2D-Messages.WebApp\ITS.Vendrame.C2D-Messages.WebApp.csproj", "{AD719290-37E7-4279-9D2A-B98BB0937B4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93990392-B650-4628-9714-C961C38CB61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93990392-B650-4628-9714-C961C38CB61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93990392-B650-4628-9714-C961C38CB61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93990392-B650-4628-9714-C961C38CB61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD719290-37E7-4279-9D2A-B98BB0937B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD719290-37E7-4279-9D2A-B98BB0937B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD719290-37E7-4279-9D2A-B98BB0937B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD719290-37E7-4279-9D2A-B98BB0937B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {811BFA15-F5DC-4C82-A1FE-1BB63F4BE067}
+	EndGlobalSection
+EndGlobal

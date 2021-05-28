@@ -1,0 +1,12 @@
+﻿@page "{id}"
+@model IIoT.Vendrame.RipassoAspNet.WebApp.Pages.Products.DetailsModel
+
+@{
+    ViewData["Title"] = "Details" + Model.Product.Id;
+}
+
+<h1>@Model.Product.Name</h1>
+<p>Codice: @Model.Product.Code</p>
+
+<a asp-page="/Index" class="btn btn-primary">Vai alla lista</a>
+

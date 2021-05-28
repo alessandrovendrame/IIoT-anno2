@@ -1,0 +1,33 @@
+###########################
+# UaModeler Project File  #
+# Generated at 27.05.2021 #
+###########################
+
+PROJECTNAME = IIoT-Vendrame_FirstModeler
+
+TEMPLATESET = ($TEMPLATES)/net/v3_0/t2/net_server.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    iiot-vendrame_firstmodeler.ua
+
+VARIABLES+= iiot-vendrame_firstmodeler.ua: Namespace=ITS_Vendrame; Organization=ITS; 
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    iiot-vendrame_firstmodeler.ua: #008000
+
+PROJECTVARIABLES += GenerateDefaultApplication = false \
+    GeneratePackagesConfig = false \
+    NetFramework = standard \
+    ProjectNamespace = IIoT-Vendrame_FirstModeler \
+    ProjectOrganization = 
+
+OUTPUTPATH = ../
+
+GENERATE += iiot-vendrame_firstmodeler.ua
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+

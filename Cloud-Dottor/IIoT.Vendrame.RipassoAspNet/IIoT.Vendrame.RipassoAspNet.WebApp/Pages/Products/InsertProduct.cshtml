@@ -1,0 +1,28 @@
+﻿@page
+@model IIoT.Vendrame.RipassoAspNet.WebApp.Pages.Products.InsertProductModel
+
+@{
+    ViewData["Title"] = "Inserimento";
+}
+
+<form method="post">
+
+    <div class="form-group">
+        <label asp-for="Input.Name"></label>
+        <input class="form-control" asp-for="Input.Name" />
+        <span class="text-danger" asp-validation-for="Input.Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Input.Code"></label>
+        <input class="form-control" asp-for="Input.Code" />
+        <span class="text-danger" asp-validation-for="Input.Code"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salva</button>
+    <a asp-page="/Index" class="btn btn-primary">Annulla</a>
+</form>
+
+@section Scripts{ 
+    <partial name="_ValidationScriptsPartial"/>
+}

@@ -1,0 +1,9 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\bin\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno2\OPC-Valle\IIOT.Vendrame.Simulations\IIOT.Vendrame.Simulations.Data\obj\Debug\netcoreapp3.1\IIOT.Vendrame.Simulations.Data.pdb
