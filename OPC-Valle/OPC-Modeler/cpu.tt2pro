@@ -1,0 +1,33 @@
+###########################
+# UaModeler Project File  #
+# Generated at 10.06.2021 #
+###########################
+
+PROJECTNAME = CPU
+
+TEMPLATESET = ($TEMPLATES)/net/v3_0/t2/net_server.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    cpu.ua
+
+VARIABLES+= cpu.ua: Namespace=itsVendrame; Organization=its; 
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    cpu.ua: #008000
+
+PROJECTVARIABLES += GenerateDefaultApplication = false \
+    GeneratePackagesConfig = false \
+    NetFramework = 3.5 \
+    ProjectNamespace = CPU \
+    ProjectOrganization = 
+
+OUTPUTPATH = ../
+
+GENERATE += cpu.ua
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+
