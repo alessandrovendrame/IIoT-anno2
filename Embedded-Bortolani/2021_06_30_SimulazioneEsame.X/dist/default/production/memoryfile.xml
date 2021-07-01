@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/default/production/2021_06_30_SimulazioneEsame.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>269824</length>                 
+      <used>3216</used>                     
+      <free>266608</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>32768</length>                 
+      <used>120</used>                     
+      <free>32648</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

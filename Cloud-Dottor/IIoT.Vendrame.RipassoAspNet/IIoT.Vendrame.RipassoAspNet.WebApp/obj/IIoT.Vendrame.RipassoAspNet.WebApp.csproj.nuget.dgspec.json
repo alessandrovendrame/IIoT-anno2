@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj": {}
+    "C:\\Users\\Alessandro\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj": {
+    "C:\\Users\\Alessandro\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Alessandro\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj",
         "projectName": "IIoT.Vendrame.RipassoAspNet.WebApp",
-        "projectPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj",
-        "packagesPath": "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\obj\\",
+        "projectPath": "C:\\Users\\Alessandro\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\IIoT.Vendrame.RipassoAspNet.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Alessandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandro\\Desktop\\Scuola\\IIoT-anno2\\Cloud-Dottor\\IIoT.Vendrame.RipassoAspNet\\IIoT.Vendrame.RipassoAspNet.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alessandro Vendrame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

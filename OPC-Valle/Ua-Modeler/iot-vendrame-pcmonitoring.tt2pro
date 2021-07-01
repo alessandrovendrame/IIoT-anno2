@@ -1,0 +1,33 @@
+###########################
+# UaModeler Project File  #
+# Generated at 24.06.2021 #
+###########################
+
+PROJECTNAME = IoT-Vendrame-PCMonitoring
+
+TEMPLATESET = ($TEMPLATES)/net/v3_0/t2/net_server.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    iot-vendrame-pcmonitoring.ua
+
+VARIABLES+= iot-vendrame-pcmonitoring.ua: Namespace=IoT_Vendrame; Organization=its; 
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    iot-vendrame-pcmonitoring.ua: #008000
+
+PROJECTVARIABLES += GenerateDefaultApplication = false \
+    GeneratePackagesConfig = false \
+    NetFramework = 3.5 \
+    ProjectNamespace = IoT-Vendrame-PCMonitoring \
+    ProjectOrganization = 
+
+OUTPUTPATH = Desktop/Scuola/IIoT-anno2/OPC-Valle/Ua-Modeler
+
+GENERATE += iot-vendrame-pcmonitoring.ua
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+

@@ -107,14 +107,14 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/main.o: main.c  .generated_files/4015ced31486574c0716b021fc3d29f227bc2375.flag .generated_files/9c38dd73fa47c8727ca672a3ac38932765b77050.flag
+${OBJECTDIR}/main.o: main.c  .generated_files/b1e163935094eba2cb15baee4d0e565630461611.flag .generated_files/73e2677e10fb41852dd38dedff52fc31eb90924a.flag
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
-${OBJECTDIR}/main.o: main.c  .generated_files/a102c02999fcd1567c8904fa349016661cf219e6.flag .generated_files/9c38dd73fa47c8727ca672a3ac38932765b77050.flag
+${OBJECTDIR}/main.o: main.c  .generated_files/815402cf43bbfa5c5406a0af63cfc10dbe1dd1c5.flag .generated_files/73e2677e10fb41852dd38dedff52fc31eb90924a.flag
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 

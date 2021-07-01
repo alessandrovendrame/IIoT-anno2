@@ -48,30 +48,32 @@
 #include <xc.h>
 #include <sys/attribs.h>                  //registro dell'interrupt
 
-#define SEG_A 0x0004
-#define SEG_B 0x0008
-#define SEG_C 0x0020
-#define SEG_D 0x0040
-#define SEG_E 0x0080
-#define SEG_F 0x0100
-#define SEG_G 0x0800
+// DEFINE SEGMENT PORT
+#define SEG_A 1 << 8    //RD8
+#define SEG_B 1 << 7    //RD7
+#define SEG_C 1 << 5    //RD5
+#define SEG_D 1 << 4    //RD4
+#define SEG_E 1 << 3    //RD2
+#define SEG_F 1 << 11   //RD9
+#define SEG_G 1 << 6    //RD6
 
+//DEFINE COMBINATION TO OPEN 7SEGMENT
 #define N0 ~(SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F)
 #define N1 ~(SEG_B | SEG_C)
 #define N2 ~(SEG_A | SEG_B | SEG_G | SEG_E | SEG_D)
-#define N3 ~(SEG_A | SEG_B | SEG_C | SEG_D | SEG_G)
-#define N4 ~(SEG_F | SEG_G | SEG_C | SEG_B)
+#define N3 ~(SEG_A | SEG_B | SEG_G | SEG_C | SEG_D)
+#define N4 ~(SEG_F | SEG_B | SEG_G | SEG_C)
 #define N5 ~(SEG_A | SEG_F | SEG_G | SEG_C | SEG_D)
-#define N6 ~(SEG_A | SEG_G | SEG_C | SEG_D | SEG_E | SEG_F)
+#define N6 ~(SEG_A | SEG_F | SEG_G | SEG_C | SEG_D | SEG_E)
 #define N7 ~(SEG_A | SEG_B | SEG_C)
 #define N8 ~(SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F | SEG_G)
-#define N9 ~(SEG_A | SEG_B | SEG_G | SEG_F | SEG_C | SEG_D)
-#define LA ~(SEG_A | SEG_B | SEG_C | SEG_G | SEG_E | SEG_F)
-#define LB ~(SEG_G | SEG_C | SEG_D | SEG_E | SEG_F)
-#define LC ~(SEG_A | SEG_F | SEG_E | SEG_D) 
-#define LD ~(SEG_B | SEG_C | SEG_D | SEG_E | SEG_G)
-#define LE ~(SEG_A | SEG_F | SEG_G | SEG_E | SEG_D)
-#define LF ~(SEG_E | SEG_F | SEG_A | SEG_G) 
+#define N9 ~(SEG_A | SEG_B | SEG_F | SEG_G | SEG_C | SEG_D)
+#define NA ~(SEG_A | SEG_B | SEG_C | SEG_E | SEG_F | SEG_G)
+#define NB ~(SEG_F | SEG_G | SEG_C | SEG_D | SEG_E)
+#define NC ~(SEG_A | SEG_F | SEG_E | SEG_D)
+#define ND ~(SEG_B | SEG_C | SEG_D | SEG_E | SEG_G)
+#define NE ~(SEG_A | SEG_F | SEG_G | SEG_E | SEG_D)
+#define NF ~(SEG_A | SEG_F | SEG_G | SEG_E) 
 
 //----------------------------------------------------------------------
 //----------------------- DICHIARAZIONE FUNZIONI -----------------------
